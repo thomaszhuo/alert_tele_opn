@@ -13,7 +13,7 @@ TELEGRAM_CHAT_ID = '-667zzzz'
 
 # mengirim pesan ke Telegram
 def send_telegram_alert(message):
-    url = f"https://api.telegram.org/bot6220566441:AAE43iQbmCn_EMKB6lReOZGFOX8zsC-OjYs/sendMessage"
+    url = f"https://api.telegram.org/bot6220:AAE43iQbmC_zzzzzzzzzzzzzzzzzz/sendMessage"
     payload = {
         'chat_id': TELEGRAM_CHAT_ID,
         'text': message
